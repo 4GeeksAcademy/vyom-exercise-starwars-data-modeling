@@ -7,6 +7,7 @@ from eralchemy2 import render_er
 
 Base = declarative_base()
 
+# VAMOS CON TODO MENOS COJN MIEDO 😌
 class Users(Base):
     __tablename__ = 'users'
     id = Column(Integer, primary_key=True)
